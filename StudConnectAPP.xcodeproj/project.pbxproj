@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498442CD2B6BC60C00AAA7E8 /* StudConnectPAGEConnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442CC2B6BC60C00AAA7E8 /* StudConnectPAGEConnexion.swift */; };
+		498442CF2B6CDD9600AAA7E8 /* StudConnectADDBonPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442CE2B6CDD9600AAA7E8 /* StudConnectADDBonPlan.swift */; };
+		498442D12B6CDF4F00AAA7E8 /* StudConnectADDEchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442D02B6CDF4F00AAA7E8 /* StudConnectADDEchange.swift */; };
+		498442D32B6CE02100AAA7E8 /* StudConnectADDRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442D22B6CE02100AAA7E8 /* StudConnectADDRecipe.swift */; };
+		498442D72B6D0B3200AAA7E8 /* StucConnectFishCAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442D62B6D0B3200AAA7E8 /* StucConnectFishCAT.swift */; };
+		498442D92B6D0CCA00AAA7E8 /* StarRatingExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442D82B6D0CCA00AAA7E8 /* StarRatingExtract.swift */; };
+		498442DB2B6D0E5D00AAA7E8 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498442DA2B6D0E5D00AAA7E8 /* ScreenThree.swift */; };
+		4992B2392B63BA58000D74DB /* StudConnectAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B2382B63BA58000D74DB /* StudConnectAPPApp.swift */; };
+		4992B23B2B63BA58000D74DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B23A2B63BA58000D74DB /* ContentView.swift */; };
+		4992B23D2B63BA5A000D74DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4992B23C2B63BA5A000D74DB /* Assets.xcassets */; };
+		4992B2402B63BA5A000D74DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4992B23F2B63BA5A000D74DB /* Preview Assets.xcassets */; };
+		4992B2472B63BA82000D74DB /* StudConnectPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B2462B63BA82000D74DB /* StudConnectPage1.swift */; };
+		4992B2492B63BC9F000D74DB /* StudConnectADDContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B2482B63BC9F000D74DB /* StudConnectADDContent.swift */; };
+		4992B24B2B63BCD9000D74DB /* StudConnectADDCOMMENT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B24A2B63BCD9000D74DB /* StudConnectADDCOMMENT.swift */; };
+		4992B24D2B63E641000D74DB /* StudConnectRECIPE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B24C2B63E641000D74DB /* StudConnectRECIPE.swift */; };
+		4992B24F2B63EB1B000D74DB /* StudConnectPROFILE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B24E2B63EB1B000D74DB /* StudConnectPROFILE.swift */; };
+		4992B2512B63FE38000D74DB /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992B2502B63FE38000D74DB /* Structures.swift */; };
+		49BCF4ED2B693D3F00889AAF /* TabViewTRY1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BCF4EC2B693D3F00889AAF /* TabViewTRY1.swift */; };
+		7F0C80CC2B70D77B001155FE /* StudConnectAllRecipesCreated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80CB2B70D77B001155FE /* StudConnectAllRecipesCreated.swift */; };
+		7F0C80D32B70F809001155FE /* StudConnectExchangesCreated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80D22B70F809001155FE /* StudConnectExchangesCreated.swift */; };
+		7F0C80D52B70FC2A001155FE /* StudConnectBpCreated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80D42B70FC2A001155FE /* StudConnectBpCreated.swift */; };
+		7F0C80D72B70FD93001155FE /* StudConnectFavoritesRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80D62B70FD93001155FE /* StudConnectFavoritesRecipes.swift */; };
+		7F0C80D92B7117EE001155FE /* StudConnectInscription1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80D82B7117EE001155FE /* StudConnectInscription1.swift */; };
+		7F0C80DB2B711820001155FE /* StudConnectInscription2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80DA2B711820001155FE /* StudConnectInscription2.swift */; };
+		7F0C80DD2B711B7E001155FE /* ConnexionProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C80DC2B711B7E001155FE /* ConnexionProfile.swift */; };
+		7F114B7A2B6FE9F3003F9D5A /* StudConnectFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F114B792B6FE9F3003F9D5A /* StudConnectFavorite.swift */; };
+		7F39B73D2B722284000736A4 /* StudConnectFavoritesExchanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F39B73C2B722284000736A4 /* StudConnectFavoritesExchanges.swift */; };
+		7F39B73F2B722396000736A4 /* StudConnectFavoritesBp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F39B73E2B722396000736A4 /* StudConnectFavoritesBp.swift */; };
+		7F4809522B73C0430081B0AD /* StudConnectProfile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4809512B73C0430081B0AD /* StudConnectProfile2.swift */; };
+		7F512E992B6D2D8000B6A1AB /* Screentwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F512E982B6D2D8000B6A1AB /* Screentwo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		498442CC2B6BC60C00AAA7E8 /* StudConnectPAGEConnexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectPAGEConnexion.swift; sourceTree = "<group>"; };
+		498442CE2B6CDD9600AAA7E8 /* StudConnectADDBonPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectADDBonPlan.swift; sourceTree = "<group>"; };
+		498442D02B6CDF4F00AAA7E8 /* StudConnectADDEchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectADDEchange.swift; sourceTree = "<group>"; };
+		498442D22B6CE02100AAA7E8 /* StudConnectADDRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectADDRecipe.swift; sourceTree = "<group>"; };
+		498442D62B6D0B3200AAA7E8 /* StucConnectFishCAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StucConnectFishCAT.swift; sourceTree = "<group>"; };
+		498442D82B6D0CCA00AAA7E8 /* StarRatingExtract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingExtract.swift; sourceTree = "<group>"; };
+		498442DA2B6D0E5D00AAA7E8 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
+		4992B2352B63BA58000D74DB /* StudConnectAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudConnectAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4992B2382B63BA58000D74DB /* StudConnectAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectAPPApp.swift; sourceTree = "<group>"; };
+		4992B23A2B63BA58000D74DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4992B23C2B63BA5A000D74DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4992B23F2B63BA5A000D74DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4992B2462B63BA82000D74DB /* StudConnectPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectPage1.swift; sourceTree = "<group>"; };
+		4992B2482B63BC9F000D74DB /* StudConnectADDContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectADDContent.swift; sourceTree = "<group>"; };
+		4992B24A2B63BCD9000D74DB /* StudConnectADDCOMMENT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectADDCOMMENT.swift; sourceTree = "<group>"; };
+		4992B24C2B63E641000D74DB /* StudConnectRECIPE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectRECIPE.swift; sourceTree = "<group>"; };
+		4992B24E2B63EB1B000D74DB /* StudConnectPROFILE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectPROFILE.swift; sourceTree = "<group>"; };
+		4992B2502B63FE38000D74DB /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		49BCF4EC2B693D3F00889AAF /* TabViewTRY1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTRY1.swift; sourceTree = "<group>"; };
+		7F0C80CB2B70D77B001155FE /* StudConnectAllRecipesCreated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectAllRecipesCreated.swift; sourceTree = "<group>"; };
+		7F0C80D22B70F809001155FE /* StudConnectExchangesCreated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectExchangesCreated.swift; sourceTree = "<group>"; };
+		7F0C80D42B70FC2A001155FE /* StudConnectBpCreated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectBpCreated.swift; sourceTree = "<group>"; };
+		7F0C80D62B70FD93001155FE /* StudConnectFavoritesRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectFavoritesRecipes.swift; sourceTree = "<group>"; };
+		7F0C80D82B7117EE001155FE /* StudConnectInscription1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectInscription1.swift; sourceTree = "<group>"; };
+		7F0C80DA2B711820001155FE /* StudConnectInscription2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectInscription2.swift; sourceTree = "<group>"; };
+		7F0C80DC2B711B7E001155FE /* ConnexionProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionProfile.swift; sourceTree = "<group>"; };
+		7F114B792B6FE9F3003F9D5A /* StudConnectFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectFavorite.swift; sourceTree = "<group>"; };
+		7F39B73C2B722284000736A4 /* StudConnectFavoritesExchanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectFavoritesExchanges.swift; sourceTree = "<group>"; };
+		7F39B73E2B722396000736A4 /* StudConnectFavoritesBp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectFavoritesBp.swift; sourceTree = "<group>"; };
+		7F4809512B73C0430081B0AD /* StudConnectProfile2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudConnectProfile2.swift; sourceTree = "<group>"; };
+		7F512E982B6D2D8000B6A1AB /* Screentwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screentwo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4992B2322B63BA58000D74DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4992B22C2B63BA58000D74DB = {
+			isa = PBXGroup;
+			children = (
+				4992B2372B63BA58000D74DB /* StudConnectAPP */,
+				4992B2362B63BA58000D74DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4992B2362B63BA58000D74DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4992B2352B63BA58000D74DB /* StudConnectAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4992B2372B63BA58000D74DB /* StudConnectAPP */ = {
+			isa = PBXGroup;
+			children = (
+				49BCF4EC2B693D3F00889AAF /* TabViewTRY1.swift */,
+				4992B2502B63FE38000D74DB /* Structures.swift */,
+				498442CC2B6BC60C00AAA7E8 /* StudConnectPAGEConnexion.swift */,
+				4992B23C2B63BA5A000D74DB /* Assets.xcassets */,
+				7F0C80D82B7117EE001155FE /* StudConnectInscription1.swift */,
+				7F0C80DA2B711820001155FE /* StudConnectInscription2.swift */,
+				7F0C80CF2B70F5C3001155FE /* Accueil Recettes */,
+				7F0C80CD2B70F533001155FE /* Profil */,
+				7F0C80D02B70F648001155FE /* Ajout contenus */,
+				7F0C80D12B70F682001155FE /* Favoris */,
+				7F0C80CE2B70F578001155FE /* Autres */,
+				4992B23E2B63BA5A000D74DB /* Preview Content */,
+			);
+			path = StudConnectAPP;
+			sourceTree = "<group>";
+		};
+		4992B23E2B63BA5A000D74DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4992B23F2B63BA5A000D74DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F0C80CD2B70F533001155FE /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				4992B24E2B63EB1B000D74DB /* StudConnectPROFILE.swift */,
+				7F4809512B73C0430081B0AD /* StudConnectProfile2.swift */,
+				7F0C80CB2B70D77B001155FE /* StudConnectAllRecipesCreated.swift */,
+				7F0C80D22B70F809001155FE /* StudConnectExchangesCreated.swift */,
+				7F0C80D42B70FC2A001155FE /* StudConnectBpCreated.swift */,
+				7F0C80DC2B711B7E001155FE /* ConnexionProfile.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		7F0C80CE2B70F578001155FE /* Autres */ = {
+			isa = PBXGroup;
+			children = (
+				498442DA2B6D0E5D00AAA7E8 /* ScreenThree.swift */,
+				498442D82B6D0CCA00AAA7E8 /* StarRatingExtract.swift */,
+				4992B23A2B63BA58000D74DB /* ContentView.swift */,
+				4992B2382B63BA58000D74DB /* StudConnectAPPApp.swift */,
+			);
+			path = Autres;
+			sourceTree = "<group>";
+		};
+		7F0C80CF2B70F5C3001155FE /* Accueil Recettes */ = {
+			isa = PBXGroup;
+			children = (
+				4992B2462B63BA82000D74DB /* StudConnectPage1.swift */,
+				7F512E982B6D2D8000B6A1AB /* Screentwo.swift */,
+				498442D62B6D0B3200AAA7E8 /* StucConnectFishCAT.swift */,
+				4992B24C2B63E641000D74DB /* StudConnectRECIPE.swift */,
+				4992B24A2B63BCD9000D74DB /* StudConnectADDCOMMENT.swift */,
+			);
+			path = "Accueil Recettes";
+			sourceTree = "<group>";
+		};
+		7F0C80D02B70F648001155FE /* Ajout contenus */ = {
+			isa = PBXGroup;
+			children = (
+				4992B2482B63BC9F000D74DB /* StudConnectADDContent.swift */,
+				498442D22B6CE02100AAA7E8 /* StudConnectADDRecipe.swift */,
+				498442D02B6CDF4F00AAA7E8 /* StudConnectADDEchange.swift */,
+				498442CE2B6CDD9600AAA7E8 /* StudConnectADDBonPlan.swift */,
+			);
+			path = "Ajout contenus";
+			sourceTree = "<group>";
+		};
+		7F0C80D12B70F682001155FE /* Favoris */ = {
+			isa = PBXGroup;
+			children = (
+				7F114B792B6FE9F3003F9D5A /* StudConnectFavorite.swift */,
+				7F0C80D62B70FD93001155FE /* StudConnectFavoritesRecipes.swift */,
+				7F39B73C2B722284000736A4 /* StudConnectFavoritesExchanges.swift */,
+				7F39B73E2B722396000736A4 /* StudConnectFavoritesBp.swift */,
+			);
+			path = Favoris;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4992B2342B63BA58000D74DB /* StudConnectAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4992B2432B63BA5A000D74DB /* Build configuration list for PBXNativeTarget "StudConnectAPP" */;
+			buildPhases = (
+				4992B2312B63BA58000D74DB /* Sources */,
+				4992B2322B63BA58000D74DB /* Frameworks */,
+				4992B2332B63BA58000D74DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudConnectAPP;
+			productName = StudConnectAPP;
+			productReference = 4992B2352B63BA58000D74DB /* StudConnectAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4992B22D2B63BA58000D74DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4992B2342B63BA58000D74DB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4992B2302B63BA58000D74DB /* Build configuration list for PBXProject "StudConnectAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4992B22C2B63BA58000D74DB;
+			productRefGroup = 4992B2362B63BA58000D74DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4992B2342B63BA58000D74DB /* StudConnectAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4992B2332B63BA58000D74DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4992B2402B63BA5A000D74DB /* Preview Assets.xcassets in Resources */,
+				4992B23D2B63BA5A000D74DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4992B2312B63BA58000D74DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498442D32B6CE02100AAA7E8 /* StudConnectADDRecipe.swift in Sources */,
+				498442D12B6CDF4F00AAA7E8 /* StudConnectADDEchange.swift in Sources */,
+				498442DB2B6D0E5D00AAA7E8 /* ScreenThree.swift in Sources */,
+				7F0C80D32B70F809001155FE /* StudConnectExchangesCreated.swift in Sources */,
+				4992B24F2B63EB1B000D74DB /* StudConnectPROFILE.swift in Sources */,
+				4992B2492B63BC9F000D74DB /* StudConnectADDContent.swift in Sources */,
+				498442CD2B6BC60C00AAA7E8 /* StudConnectPAGEConnexion.swift in Sources */,
+				498442CF2B6CDD9600AAA7E8 /* StudConnectADDBonPlan.swift in Sources */,
+				7F0C80D92B7117EE001155FE /* StudConnectInscription1.swift in Sources */,
+				498442D72B6D0B3200AAA7E8 /* StucConnectFishCAT.swift in Sources */,
+				7F512E992B6D2D8000B6A1AB /* Screentwo.swift in Sources */,
+				7F0C80DD2B711B7E001155FE /* ConnexionProfile.swift in Sources */,
+				498442D92B6D0CCA00AAA7E8 /* StarRatingExtract.swift in Sources */,
+				7F39B73D2B722284000736A4 /* StudConnectFavoritesExchanges.swift in Sources */,
+				4992B2472B63BA82000D74DB /* StudConnectPage1.swift in Sources */,
+				4992B23B2B63BA58000D74DB /* ContentView.swift in Sources */,
+				7F0C80D72B70FD93001155FE /* StudConnectFavoritesRecipes.swift in Sources */,
+				7F4809522B73C0430081B0AD /* StudConnectProfile2.swift in Sources */,
+				4992B24B2B63BCD9000D74DB /* StudConnectADDCOMMENT.swift in Sources */,
+				7F0C80D52B70FC2A001155FE /* StudConnectBpCreated.swift in Sources */,
+				4992B24D2B63E641000D74DB /* StudConnectRECIPE.swift in Sources */,
+				4992B2392B63BA58000D74DB /* StudConnectAPPApp.swift in Sources */,
+				7F114B7A2B6FE9F3003F9D5A /* StudConnectFavorite.swift in Sources */,
+				7F39B73F2B722396000736A4 /* StudConnectFavoritesBp.swift in Sources */,
+				49BCF4ED2B693D3F00889AAF /* TabViewTRY1.swift in Sources */,
+				4992B2512B63FE38000D74DB /* Structures.swift in Sources */,
+				7F0C80DB2B711820001155FE /* StudConnectInscription2.swift in Sources */,
+				7F0C80CC2B70D77B001155FE /* StudConnectAllRecipesCreated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4992B2412B63BA5A000D74DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4992B2422B63BA5A000D74DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4992B2442B63BA5A000D74DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudConnectAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = C2UNRPV7ZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudia.StudConnectAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4992B2452B63BA5A000D74DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudConnectAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = C2UNRPV7ZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudia.StudConnectAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4992B2302B63BA58000D74DB /* Build configuration list for PBXProject "StudConnectAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4992B2412B63BA5A000D74DB /* Debug */,
+				4992B2422B63BA5A000D74DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4992B2432B63BA5A000D74DB /* Build configuration list for PBXNativeTarget "StudConnectAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4992B2442B63BA5A000D74DB /* Debug */,
+				4992B2452B63BA5A000D74DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4992B22D2B63BA58000D74DB /* Project object */;
+}
